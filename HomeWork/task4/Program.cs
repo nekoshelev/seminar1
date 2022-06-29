@@ -7,9 +7,9 @@ Console.WriteLine("Введите число N");
 int numN = int.Parse(Console.ReadLine());
 
 int count = 2;
-if(numN > 0)
+if(numN > 1)
 {
-while (count+1 <= numN)
+while (count <= numN)
 {
     Console.Write(count+" ");
     count = count + 2;
@@ -17,5 +17,5 @@ while (count+1 <= numN)
 }
 else
 {
-   Console.WriteLine("Не возможно выполнить, т.к Вы ввели отрицательное число"); 
+   Console.WriteLine("Не возможно вывести четные числа, т.к. вводимое число меньше или равно 1"); 
 }
